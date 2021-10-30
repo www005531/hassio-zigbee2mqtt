@@ -1,10 +1,10 @@
 {
-  "name": "Zigbee2mqtt Edge",
+  "name": "Zigbee2mqtt Edge forked",
   "version": "edge",
   "slug": "zigbee2mqtt_edge",
-  "description": "Development build of the Zigbee2mqtt add-on",
+  "description": "Development build of the Zigbee2mqtt add-on FORKED",
   "uart": true,
-  "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt-edge",
+  "url": "https://github.com/www005531/hassio-zigbee2mqtt/tree/master/zigbee2mqtt-edge",
   "startup": "application",
   "services": [
     "mqtt:need"
@@ -24,7 +24,7 @@
     "config:rw"
   ],
   "ports": {
-    "8485/tcp": 8485
+    "8485/tcp": 8486
   },
   "ports_description": {
     "8485/tcp": "Socat tcp-listen port"

@@ -1,10 +1,10 @@
 {
-  "name": "Zigbee2mqtt",
+  "name": "Zigbee2mqtt forked",
   "version": "1.21.2-1",
   "slug": "zigbee2mqtt",
-  "description": "Use your ZigBee devices without the vendor's bridge or gateway",
+  "description": "FORKED: Use your ZigBee devices without the vendor's bridge or gateway",
   "uart": true,
-  "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt",
+  "url": "https://github.com/www005531/hassio-zigbee2mqtt/tree/master/zigbee2mqtt",
   "startup": "application",
   "services": [
     "mqtt:need"
@@ -24,7 +24,7 @@
     "config:rw"
   ],
   "ports": {
-    "8485/tcp": 8485
+    "8485/tcp": 8486
   },
   "ports_description": {
     "8485/tcp": "Socat tcp-listen port"
@@ -37,7 +37,7 @@
     "homeassistant": true,
     "permit_join": false,
     "mqtt": {
-      "base_topic": "zigbee2mqtt"
+      "base_topic": "zigbee2mqttF"
     },
     "serial": {
       "port": "/dev/ttyACM0"
