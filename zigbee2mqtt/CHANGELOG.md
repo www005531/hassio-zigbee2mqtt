@@ -1,3 +1,5 @@
+FORKED
+
 ## 1.21.2-1
 - Updated Zigbee2MQTT to version [`1.21.2`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.21.2)
 
